@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03cf3cf2-74b6-4c67-a3d6-71d7d525b105" name="Default" comment="Initial commit.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Coding-Sample-Java/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/production/Coding-Sample-Java/META-INF/MANIFEST.MF" />
+    <list default="true" id="03cf3cf2-74b6-4c67-a3d6-71d7d525b105" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Coding-Sample-Java.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Coding-Sample-Java/META-INF/MANIFEST.MF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/actionsets/Main.java" afterPath="$PROJECT_DIR$/src/com/actionsets/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Coding-Sample-Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -400,7 +406,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431928913175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add IDEA files to .gitignore">
+      <created>1431987026051</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1431987026051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -445,7 +457,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Add IDEA files to .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add IDEA files to .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
