@@ -1,7 +1,15 @@
 <project default="compile">
-	<target name="compile">
-		<mkdir dir="bin"/>
-		<javac srcdir="src" destdir="bin"/>
-	</target>
+    <target name="compile">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin"/>
+    </target>
+    <target name="dist" depends="compile">
+        <mkdir dir="dist/lib"/>
+		<manifest file = "MANIFEST.MF">
+			<attribute name = "Main-Class" value = "Main"/>
+			<attribute name = "Class-Path" value = "."/>
+		</manifest>
+        <jar destfile="dist/lib/LoadBalancer.jar" basedir="bin"/>
+    </target>
 </project>
 
